@@ -1,0 +1,22 @@
+#body {
+	width: 26em;
+}
+#main {
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#title {
+	margin-top: 2%;
+}
+#mainDiv {
+	overflow: auto;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
